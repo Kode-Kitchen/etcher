@@ -44,3 +44,10 @@ Upgrading Electron
 
 - Upgrade the `electron-prebuilt` dependency version in `package.json` to an
 *exact version* (no `~`, `^`, etc).
+
+Dealing with a problematic release
+----------------------------------
+
+There can be times where a release is accidentally plagued with bugs. If you
+released a new version and notice the error rates are higher than normal, then
+revert the problematic release as soon as possible, until the bugs are fixed.
